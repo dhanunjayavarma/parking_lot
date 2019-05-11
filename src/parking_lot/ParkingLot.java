@@ -5,5 +5,7 @@ import java.util.Map;
 public class ParkingLot {
 	Map<String, Car> parkingSpots;
 	AutomatedTicketSystem ticketSystem;
-	
+	private ParkingLot() {
+		
+	}
 }
